@@ -1,7 +1,9 @@
 
 # chochoi
 
-Starter kit for programming Node commands with Clojure
+Starter kit for programming Node commands with Clojure.
+
+"chochoi" means 'easy, fast' in Japanese.
 
 ## Requirements
 
