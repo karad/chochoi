@@ -1,0 +1,14 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "",
+  "preferGlobal": true,
+  "bin": {
+    "<%= name %>": "out/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
