@@ -81,6 +81,11 @@ function out (templatePath, outPath, data) {
   )
 }
 
+/**
+ * new command
+ * @param cmdName
+ * @param cmdValue
+ */
 function chochoiNew (cmdName, cmdValue) {
   util.br()
   util.println('⚡ \x1b[33minit chochoi project...\x1b[0m')
@@ -106,6 +111,11 @@ function chochoiNew (cmdName, cmdValue) {
   util.println('👍 \x1b[32mcompleted.\x1b[0m')
 }
 
+/**
+ * build command
+ * @param cmdName
+ * @param cmdValue
+ */
 function chochoiBuild (cmdName, cmdValue) {
   if (!fs.existsSync('build.js')) {
     util.br()
