@@ -1,0 +1,19 @@
+{
+  "name": "chochoi",
+  "version": "0.0.1",
+  "description": "A small template for node cli command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "clojurescript",
+    "clojure",
+    "cli",
+    "generator",
+    "tool"
+  ],
+  "author": "kazuhiro hara",
+  "license": "MIT"
+}
