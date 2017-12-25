@@ -7,6 +7,7 @@ var mkdirp = require('mkdirp')
 var path = require('path')
 var config = require('./config')
 var util = require('./util/index')
+var easterEgg = require('./util/easterEgg')
 var exec = require('child_process').exec
 
 // read setting
@@ -142,6 +143,8 @@ function main (args) {
     case 'new': chochoiNew(argv[0], argv[1])
       break;
     case 'build': chochoiBuild(argv[0], argv[1])
+      break;
+    case 'merry': easterEgg.merry(argv[0], argv[1])
       break;
     default: console.log('display chochoi help.')
       break;

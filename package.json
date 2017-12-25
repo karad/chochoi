@@ -1,6 +1,6 @@
 {
   "name": "chochoi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Starter kit for programming Node commands with Clojure",
   "main": "index.js",
   "scripts": {

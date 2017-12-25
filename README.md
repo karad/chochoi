@@ -98,6 +98,10 @@ You can edit `src/hello/command.cljs `
 
 ## Change log
 
+### 0.0.6 (2017-12-25)
+
+- added 'merry' command. enjoy it!
+
 ### 0.0.4 (2017-12-24)
 
 - start project.
